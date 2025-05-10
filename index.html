@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div id="startScreen" class="startScreen">
+        <div class="startScreenText">
+            <p class="typewriter">ARE YOU READY TO START GAME?</p>
+
+        </div>
+        <div class="startScreenBtn">
+            <button id="startGameBtn" class="screenBtn">Start Game</button>
+            <button id="cancelGameBtn" class="screenBtn"">Cancel</button>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- main html -->
+    <div class=" header">
+                <h1>Rock Paper Scissors </h1>
+        </div>
+
+        <div style="text-align: center;">
+            <p id="gameMsg"
+                style="visibility: hidden; font-weight: bold; font-size: 30px; margin-bottom: 10px; height: 10px;"></p>
+
+        </div>
+
+
+
+        <div class="container">
+            <!-- 1-ci kart -->
+            <div class="card">
+                <img src="https://cdn.vectorstock.com/i/500p/63/78/megaphone-are-you-ready-stamp-graphic-red-grunge-vector-45796378.jpg"
+                    alt="Card 1" id="imgEl1">
+                <div class="me">ME</div>
+                <div class="stats">
+                    <p class="win" id="statEl1">Start</p>
+                    <p class="point" id="pointEl1">0</p>
+
+                </div>
+            </div>
+
+            <!-- VS və Play düyməsi -->
+            <div class="vs-area">
+                <div class="vs">VS</div>
+                <button id="playBtn">Play</button>
+
+
+                <button id="resetBtn" class="resetBtn1">Reset</button>
+            </div>
+
+            <!-- 2-ci kart -->
+            <div class="card">
+                <img src="https://cdn.vectorstock.com/i/500p/63/78/megaphone-are-you-ready-stamp-graphic-red-grunge-vector-45796378.jpg"
+                    alt="Card 2" id="imgEl2">
+                <div class="me">AI</div>
+                <div class="stats">
+                    <p class="win" id="statEl2">Start</p>
+                    <p class="point" id="pointEl2">0</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="game-text">
+            <p> Make your choice to statr the game!</p>
+        </div>
+        <!-- <div class="game-btn">
+        <button id="playBtn" class="playGame"> Play Game</button>
+        <button id="resetBtn" class="resetGame"> Reset Game</button>
+    </div> -->
+
+        <script src="main.js"></script>
+</body>
+
+</html>
